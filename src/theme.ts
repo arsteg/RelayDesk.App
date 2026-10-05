@@ -1,0 +1,30 @@
+export const colors = {
+  brand: "#c2410c",
+  brandDark: "#9a3412",
+  bg: "#fafaf9",
+  card: "#ffffff",
+  border: "#e7e5e4",
+  text: "#1c1917",
+  muted: "#78716c",
+  green: "#047857",
+  greenBg: "#ecfdf5",
+  amber: "#b45309",
+  amberBg: "#fffbeb",
+  blue: "#0369a1",
+  blueBg: "#f0f9ff",
+  red: "#dc2626",
+  redBg: "#fef2f2",
+  violet: "#6d28d9",
+  violetBg: "#f5f3ff",
+  gray: "#57534e",
+  grayBg: "#f5f5f4",
+};
+
+export const statusTone: Record<string, { fg: string; bg: string }> = {
+  DRAFT: { fg: colors.gray, bg: colors.grayBg },
+  CONFIRMED: { fg: colors.blue, bg: colors.blueBg },
+  IN_PROGRESS: { fg: colors.amber, bg: colors.amberBg },
+  READY: { fg: colors.violet, bg: colors.violetBg },
+  COMPLETED: { fg: colors.green, bg: colors.greenBg },
+  CANCELLED: { fg: colors.red, bg: colors.redBg },
+};

@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "RelayDesk Order",
+    "slug": "relaydesk-order",
+    "scheme": "relaydeskorder",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.relaydesk.order",
+      "adaptiveIcon": {
+        "backgroundColor": "#c2410c"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.relaydesk.order",
+      "supportsTablet": true
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "extra": {
+      "router": {}
+    }
+  }
+}
